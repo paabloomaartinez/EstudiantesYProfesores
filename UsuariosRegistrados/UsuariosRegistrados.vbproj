@@ -110,20 +110,21 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Alumno\Estudiante.aspx" />
+    <Content Include="Alumno\Alumno.aspx" />
     <Content Include="Alumno\InstanciarTarea.aspx" />
     <Content Include="Alumno\VerTareasEstudiante.aspx" />
     <Content Include="Profesor\TareasProfesor.aspx" />
+    <Content Include="Profesor\InsertarTarea.aspx" />
     <Content Include="Web.config" />
     <Content Include="Inicio.aspx" />
     <Content Include="Profesor\Profesor.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Alumno\Estudiante.aspx.designer.vb">
-      <DependentUpon>Estudiante.aspx</DependentUpon>
+    <Compile Include="Alumno\Alumno.aspx.designer.vb">
+      <DependentUpon>Alumno.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Alumno\Estudiante.aspx.vb">
-      <DependentUpon>Estudiante.aspx</DependentUpon>
+    <Compile Include="Alumno\Alumno.aspx.vb">
+      <DependentUpon>Alumno.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Alumno\InstanciarTarea.aspx.designer.vb">
@@ -131,6 +132,13 @@
     </Compile>
     <Compile Include="Alumno\InstanciarTarea.aspx.vb">
       <DependentUpon>InstanciarTarea.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Alumno\VerTareasEstudiante.aspx.designer.vb">
+      <DependentUpon>VerTareasEstudiante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Alumno\VerTareasEstudiante.aspx.vb">
+      <DependentUpon>VerTareasEstudiante.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -166,18 +174,18 @@
       <DependentUpon>Profesor.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Alumno\VerTareasEstudiante.aspx.designer.vb">
-      <DependentUpon>VerTareasEstudiante.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Alumno\VerTareasEstudiante.aspx.vb">
-      <DependentUpon>VerTareasEstudiante.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
     <Compile Include="Profesor\TareasProfesor.aspx.designer.vb">
       <DependentUpon>TareasProfesor.aspx</DependentUpon>
     </Compile>
     <Compile Include="Profesor\TareasProfesor.aspx.vb">
       <DependentUpon>TareasProfesor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Profesor\InsertarTarea.aspx.designer.vb">
+      <DependentUpon>InsertarTarea.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesor\InsertarTarea.aspx.vb">
+      <DependentUpon>InsertarTarea.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>

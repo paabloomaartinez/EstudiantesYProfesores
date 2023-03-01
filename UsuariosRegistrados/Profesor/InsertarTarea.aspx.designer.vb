@@ -12,7 +12,7 @@ Option Explicit On
 
 
 
-Partial Public Class WebForm4
+Partial Public Class WebForm5
 
     '''<summary>
     '''form1 control.

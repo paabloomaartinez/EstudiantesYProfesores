@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="TareasProfesor.aspx.vb" Inherits="UsuariosRegistrados.WebForm1" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="TareasProfesor.aspx.vb" Inherits="UsuariosRegistrados.WebForm4" %>
 
 <!DOCTYPE html>
 
@@ -8,9 +8,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <h1>Tareas Profesor</h1>
         <div>
-
         </div>
     </form>
 </body>

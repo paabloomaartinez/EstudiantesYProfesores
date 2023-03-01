@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="VerTareasEstudiante.aspx.vb" Inherits="UsuariosRegistrados.WebForm3" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="InsertarTarea.aspx.vb" Inherits="UsuariosRegistrados.WebForm5" %>
 
 <!DOCTYPE html>
 
