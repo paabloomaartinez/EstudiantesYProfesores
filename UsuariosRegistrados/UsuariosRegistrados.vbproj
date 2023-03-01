@@ -113,6 +113,7 @@
     <Content Include="Alumno\Estudiante.aspx" />
     <Content Include="Alumno\InstanciarTarea.aspx" />
     <Content Include="Alumno\VerTareasEstudiante.aspx" />
+    <Content Include="Profesor\TareasProfesor.aspx" />
     <Content Include="Web.config" />
     <Content Include="Inicio.aspx" />
     <Content Include="Profesor\Profesor.aspx" />
@@ -170,6 +171,13 @@
     </Compile>
     <Compile Include="Alumno\VerTareasEstudiante.aspx.vb">
       <DependentUpon>VerTareasEstudiante.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Profesor\TareasProfesor.aspx.designer.vb">
+      <DependentUpon>TareasProfesor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesor\TareasProfesor.aspx.vb">
+      <DependentUpon>TareasProfesor.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>

@@ -16,10 +16,10 @@
             <asp:Label ID="Label2" runat="server" Font-Size="XX-Large" Text="Alumnos"></asp:Label>
         </p>
         <p>
-            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/VerTareasEstudiante.aspx">Tareas Genericas</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Alumno/VerTareasEstudiante.aspx">Tareas Genericas</asp:HyperLink>
         </p>
         <p>
-            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/InstanciarTarea.aspx">Tareas Propias</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink2" runat="server">Tareas Propias</asp:HyperLink>
         </p>
         <p>
             <asp:HyperLink ID="HyperLink3" runat="server">Grupos</asp:HyperLink>

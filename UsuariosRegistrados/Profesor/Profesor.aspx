@@ -12,5 +12,30 @@
 </head>
 <body>
 
+    <form id="form1" runat="server">
+        <h1>Gestión Web de Tareas-Dedicación</h1>
+
+        <h2>Profesores</h2>
+
+        <p>
+            <asp:HyperLink ID="hlAsignaturas" runat="server">Asignaturas</asp:HyperLink>
+        </p>
+        <p>
+             <asp:HyperLink ID="hlTareas" runat="server" NavigateUrl="~/Profesor/TareasProfesor.aspx">Tareas</asp:HyperLink>
+        </p>
+        <p>
+            <asp:HyperLink ID="hlGrupos" runat="server">Grupos</asp:HyperLink>
+        </p>
+        <p>
+            <asp:HyperLink ID="hlImportarXML" runat="server">Importar v.XMLDocument</asp:HyperLink>
+        </p>
+        <p>
+            <asp:HyperLink ID="hlExportar" runat="server">Exportar</asp:HyperLink>
+        </p>
+        <p>
+            <asp:HyperLink ID="hlImportarDataSet" runat="server">Importar v.DataSet</asp:HyperLink>
+        </p>
+    </form>
+
 </body>
 </html>
