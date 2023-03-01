@@ -110,11 +110,28 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Estudiante.aspx" />
+    <Content Include="InstanciarTarea.aspx" />
+    <Content Include="VerTareasEstudiante.aspx" />
     <Content Include="Web.config" />
     <Content Include="Inicio.aspx" />
     <Content Include="Profesor.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Estudiante.aspx.designer.vb">
+      <DependentUpon>Estudiante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Estudiante.aspx.vb">
+      <DependentUpon>Estudiante.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="InstanciarTarea.aspx.designer.vb">
+      <DependentUpon>InstanciarTarea.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InstanciarTarea.aspx.vb">
+      <DependentUpon>InstanciarTarea.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -146,6 +163,13 @@
     </Compile>
     <Compile Include="Profesor.aspx.vb">
       <DependentUpon>Profesor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="VerTareasEstudiante.aspx.designer.vb">
+      <DependentUpon>VerTareasEstudiante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VerTareasEstudiante.aspx.vb">
+      <DependentUpon>VerTareasEstudiante.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
