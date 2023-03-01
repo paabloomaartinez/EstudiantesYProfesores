@@ -22,6 +22,8 @@
             <asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="SqlDataSource2" DataTextField="codigo" DataValueField="codigo">
             </asp:DropDownList>
             <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:HADS2023ConnectionString %>" SelectCommand="SELECT [codigo] FROM [Asignatura]"></asp:SqlDataSource>
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:HADS2023ConnectionString %>" SelectCommand="SELECT [codigo], [descripcion], [hEstimadas], [tipoTarea] FROM [TareaGenerica]"></asp:SqlDataSource>
+        </div>
             <asp:GridView ID="GridView1" runat="server" Height="142px" Width="355px" AutoGenerateColumns="False" DataKeyNames="codigo" DataSourceID="SqlDataSource1">
                 <Columns>
                     <asp:BoundField DataField="codigo" HeaderText="codigo" ReadOnly="True" SortExpression="codigo" />
@@ -30,8 +32,6 @@
                     <asp:BoundField DataField="tipoTarea" HeaderText="tipoTarea" SortExpression="tipoTarea" />
                 </Columns>
             </asp:GridView>
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:HADS2023ConnectionString %>" SelectCommand="SELECT [codigo], [descripcion], [hEstimadas], [tipoTarea] FROM [TareaGenerica]"></asp:SqlDataSource>
-        </div>
     </form>
 </body>
 </html>
