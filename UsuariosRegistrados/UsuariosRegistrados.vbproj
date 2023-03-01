@@ -110,25 +110,25 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Estudiante.aspx" />
-    <Content Include="InstanciarTarea.aspx" />
-    <Content Include="VerTareasEstudiante.aspx" />
+    <Content Include="Alumno\Estudiante.aspx" />
+    <Content Include="Alumno\InstanciarTarea.aspx" />
+    <Content Include="Alumno\VerTareasEstudiante.aspx" />
     <Content Include="Web.config" />
     <Content Include="Inicio.aspx" />
-    <Content Include="Profesor.aspx" />
+    <Content Include="Profesor\Profesor.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Estudiante.aspx.designer.vb">
+    <Compile Include="Alumno\Estudiante.aspx.designer.vb">
       <DependentUpon>Estudiante.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Estudiante.aspx.vb">
+    <Compile Include="Alumno\Estudiante.aspx.vb">
       <DependentUpon>Estudiante.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="InstanciarTarea.aspx.designer.vb">
+    <Compile Include="Alumno\InstanciarTarea.aspx.designer.vb">
       <DependentUpon>InstanciarTarea.aspx</DependentUpon>
     </Compile>
-    <Compile Include="InstanciarTarea.aspx.vb">
+    <Compile Include="Alumno\InstanciarTarea.aspx.vb">
       <DependentUpon>InstanciarTarea.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
@@ -158,17 +158,17 @@
       <DependentUpon>Inicio.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Profesor.aspx.designer.vb">
+    <Compile Include="Profesor\Profesor.aspx.designer.vb">
       <DependentUpon>Profesor.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Profesor.aspx.vb">
+    <Compile Include="Profesor\Profesor.aspx.vb">
       <DependentUpon>Profesor.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="VerTareasEstudiante.aspx.designer.vb">
+    <Compile Include="Alumno\VerTareasEstudiante.aspx.designer.vb">
       <DependentUpon>VerTareasEstudiante.aspx</DependentUpon>
     </Compile>
-    <Compile Include="VerTareasEstudiante.aspx.vb">
+    <Compile Include="Alumno\VerTareasEstudiante.aspx.vb">
       <DependentUpon>VerTareasEstudiante.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
