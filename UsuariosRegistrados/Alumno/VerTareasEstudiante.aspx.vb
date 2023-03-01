@@ -5,4 +5,7 @@
         correo = System.Web.HttpContext.Current.Session(“correo”)
     End Sub
 
+    Protected Sub DropDownList1_SelectedIndexChanged(sender As Object, e As EventArgs)
+
+    End Sub
 End Class
