@@ -17,7 +17,7 @@ Public Class InstanciarTarea
         Session("dataSet") = ds
 
         txtUsuario.Text() = Session("correo")
-        txtTarea.Text() = Session("tarea")
+        txtTarea.Text() = Session("codTarea")
         txtEstimado.Text() = Session("hEstimadas")
         GridView1.DataSource = tbEstudianteTarea
         GridView1.DataBind()
@@ -28,7 +28,7 @@ Public Class InstanciarTarea
         Dim tbEstudianteTarea = Session("tablaEstudianteT")
         Dim R As DataRow = tbEstudianteTarea.NewRow
         R("correo") = Session("correo")
-        R("codTarea") = Session("tarea")
+        R("codTarea") = Session("codTarea")
         R("hEstimadas") = Session("hEstimadas")
         R("hReales") = txtReales.Text()
         tbEstudianteTarea.Rows.Add(R)
