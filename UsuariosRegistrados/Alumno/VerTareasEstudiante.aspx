@@ -17,11 +17,15 @@
         </div>
         <h3>Seleccionar Asignatura (solo se muestran aquellas en las que está matriculado):</h3>
 
-        <asp:GridView ID="GridView1" runat="server" >
-        </asp:GridView>
-
         <asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="SqlDataSource2" DataTextField="codigo" DataValueField="codigo" AutoPostBack="True">
         </asp:DropDownList>
+
+        <asp:GridView ID="GridView1" runat="server" >
+            <Columns>
+                <asp:CommandField ButtonType="Button" ShowSelectButton="True"/>
+            </Columns>
+
+        </asp:GridView>
 
         <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:HADS2023ConnectionString %>" 
         SelectCommand="Select Asignatura.Codigo
