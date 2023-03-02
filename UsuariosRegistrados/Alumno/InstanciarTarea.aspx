@@ -44,6 +44,9 @@
                 <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
             </asp:GridView>
         </p>
+        <p>
+            <asp:Label ID="lblMsg" runat="server" Text="Label"></asp:Label>
+        </p>
     </form>
 </body>
 </html>
