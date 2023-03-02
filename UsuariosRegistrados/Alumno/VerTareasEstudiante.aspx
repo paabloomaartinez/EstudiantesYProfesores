@@ -24,7 +24,6 @@
             <Columns>
                 <asp:CommandField ButtonType="Button" ShowSelectButton="True"/>
             </Columns>
-
         </asp:GridView>
 
         <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:HADS2023ConnectionString %>" 
