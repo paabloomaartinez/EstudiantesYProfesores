@@ -29,8 +29,9 @@
         <asp:Button ID="btnCrear" runat="server" Height="43px" Text="Crear Tarea" Width="169px" />
         <p>
             <asp:HyperLink ID="hlVolver" runat="server" NavigateUrl="~/VerTareasEstudiante.aspx">Página anterior</asp:HyperLink>
-            <asp:GridView ID="GridView1" runat="server">
+            <asp:GridView ID="GridView1" runat="server" DataSourceID="SqlDataSource1">
             </asp:GridView>
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
         </p>
     </form>
 </body>
