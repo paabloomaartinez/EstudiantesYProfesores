@@ -13,6 +13,7 @@ Public Class WebForm2
         da.Fill(ds, "Usuario")
         Dim tbUsuario As New DataTable
         tbUsuario = ds.Tables("Usuario")
+        Session("connection") = con
         Session("tablaUsuarios") = tbUsuario
     End Sub
 
@@ -30,6 +31,7 @@ Public Class WebForm2
                 If pass = contrasenia Then
                     Dim tipo As String = row("tipo")
                     Session("rol") = tipo
+                    Session("correo") = email
                     If tipo = "Profesor" Then
                         Response.Redirect("./Profesor/Profesor.aspx")
                     Else
