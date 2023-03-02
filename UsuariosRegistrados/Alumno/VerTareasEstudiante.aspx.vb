@@ -31,5 +31,4 @@ Public Class WebForm3
         Response.Redirect("InstanciarTarea.aspx?codigo=" + codTarea + "&he=" + horas)
     End Sub
 
-
 End Class
