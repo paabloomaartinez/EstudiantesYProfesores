@@ -17,6 +17,26 @@
         </div>
         <h3>Seleccionar Asignatura (solo se muestran aquellas en las que está matriculado):</h3>
 
+        <asp:GridView ID="GridView1" runat="server" >
+        </asp:GridView>
+
+        <asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="SqlDataSource2" DataTextField="codigo" DataValueField="codigo" AutoPostBack="True">
+        </asp:DropDownList>
+
+        <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:HADS2023ConnectionString %>" 
+        SelectCommand="Select Asignatura.Codigo
+        From Asignatura Join GrupoClase On
+        Asignatura.Codigo = GrupoClase.CodigoAsig  
+        Join EstudianteGrupo On
+        GrupoClase.Codigo = EstudianteGrupo.Grupo 
+        Join Usuario On
+        Usuario.email = EstudianteGrupo.email 
+        Where (Usuario.email = @email)">
+            <SelectParameters>
+                <asp:SessionParameter Name="email" SessionField="correo" />
+            </SelectParameters>
+        </asp:SqlDataSource>
+
     </form>
 </body>
 </html>

@@ -42,6 +42,6 @@ Public Class WebForm2
         Next row
 
         MsgBox("Email o contraseña incorrectos.")
-
+        Session(“correo”) = correo
     End Sub
 End Class
