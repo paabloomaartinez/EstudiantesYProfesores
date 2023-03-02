@@ -32,15 +32,6 @@ Partial Public Class WebForm3
     Protected WithEvents glCerrarSesion As Global.System.Web.UI.WebControls.HyperLink
 
     '''<summary>
-    '''Control GridView1.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents GridView1 As Global.System.Web.UI.WebControls.GridView
-
-    '''<summary>
     '''Control DropDownList1.
     '''</summary>
     '''<remarks>
@@ -48,6 +39,15 @@ Partial Public Class WebForm3
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents DropDownList1 As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''Control GridView1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents GridView1 As Global.System.Web.UI.WebControls.GridView
 
     '''<summary>
     '''Control SqlDataSource2.
