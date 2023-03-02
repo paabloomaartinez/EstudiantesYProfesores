@@ -35,7 +35,7 @@ Public Class WebForm2
                     If tipo = "Profesor" Then
                         Response.Redirect("./Profesor/Profesor.aspx")
                     Else
-                        Response.Redirect("./Alumno/Alumno.aspx")
+                        Response.Redirect("./Alumno/InstanciarTarea.aspx")
                     End If
                 End If
             End If
